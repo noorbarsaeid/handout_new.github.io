@@ -1,0 +1,55 @@
+---
+title: "Project Submission Guidelines"
+subtitle: "Data Science for Business (SS 2024)"
+abstract: |
+    The presentation will explore Chapters 9 and 10 of The Art of Statistics by David Spiegelhalter, which focus on integrating probability with statistics and the process of answering questions using statistical methods. In Chapter 9, we dive into the connection between probability theory and statistical inference, with concepts such as random variables, sampling distributions, the Central Limit Theorem, and confidence intervals. Chapter 10 extends this foundation to hypothesis testing, P-values, and the evaluation of scientific claims, emphasizing the importance of avoiding misinterpretation and recognizing the limitations of statistical methods. Through examples and practical exercises, we will simplify complex ideas like sampling variability, Type I and Type II errors, and confidence intervals, making these essential statistical tools accessible and relatable.
+---
+
+# Chapter 9: Putting Probability and Statistics Together
+
+**What is a Random Variable?**
+
+A random variable is a value that changes randomly. If we repeatedly take samples, statistics like sample means and proportions will vary. These variations form a sampling distribution.
+
+Example: Rolling a dice 10 times and counting the number of "6"s. Repeating this 100 times produces a predictable pattern for the number of 6s.
+
+**The Central Limit Theorem (CLT):**
+
+Random sampling produces a predictable pattern and connects to the idea of a sampling distribution. The CLT states that the distribution of the sample mean will approximate a normal distribution (bell-shaped curve) as sample size increases, regardless of the population's original shape.
+
+Example: Imagine measuring the weights of apples. The individual weights may vary, but the average weight from multiple samples will form a normal distribution.*
+
+**Confidence Intervals**
+
+A confidence interval estimates a range of plausible values for a population parameter (e.g., mean or proportion). A 95% confidence interval means that, if repeated, the true value will fall within this range 95% of the time.
+
+Example: Surveying 100 students about daily screen time. If the average is 3 hours with a 95% confidence interval of 2.8–3.2 hours, this suggests the true average lies in this range.*
+
+# Chapter 10: Answering Questions and Claiming Discoveries
+
+**Significance Testing and Hypotheses**
+
+Hypothesis testing starts with a null hypothesis (e.g., no effect). Data is compared to this hypothesis to determine if the observed results are significant.
+
+Example: A company tests whether a new fertilizer increases crop yield. The null hypothesis states "no effect," but if the data shows significant growth compared to untreated crops, the null is rejected.
+
+**P-Values and Statistical Errors**
+
+A P-value measures the probability of observing results as extreme as the current data under the null hypothesis. Small P-values (e.g., \<0.05) indicate significance. Errors:
+
+-   Type I Error: Rejecting a true null hypothesis (false positive).
+-   Type II Error: Failing to reject a false null hypothesis (false negative).
+
+Example:A fire alarm sounds when no fire is present (Type I).A smoke detector fails to trigger during a fire (Type II).
+
+**P-Value Interpretation and Over-Reliance**
+
+The p-value is the probability of obtaining test results at least as extreme as the observed results, assuming that the null hypothesis is true.
+
+P-values should not be the sole criterion for conclusions. Practical significance, confidence intervals, and replication of results are equally important.
+
+Example: A new drug reduces recovery time by just 1 hour. Even if the P-value is significant, the practical benefit might be minimal.
+
+# References
+
+Spiegelhalter, D. (2019). *The Art of Statistics: Learning from Data.* Pelican Books..
